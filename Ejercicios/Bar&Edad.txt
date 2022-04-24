@@ -1,0 +1,20 @@
+Ejercicio para permitir o denegar la entrada a un bar dependiendo de la edad de la persona --> en PSeInt.
+
+Algoritmo EntrarBar
+	// Si es mayor de 18 puede entrar
+	// si es menor de 18 no puede entrar
+	//edad>=18
+	//verificar la edad de una persona
+	//año de nacimiento
+	Escribir 'Bienvenido al bar'
+	Escribir 'Ingrese su edad: '
+	Leer edad
+	Escribir 'Ingrese su año de nacimiento: '
+	Leer a
+	edadR <- 2022-a
+	Si edad==edadR Entonces
+		Escribir '¿Qué vas a tomar?'
+	SiNo
+		Escribir 'Fuera de mi bar!!'
+	FinSi
+FinAlgoritmo
